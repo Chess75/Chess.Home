@@ -1,0 +1,126 @@
+body {
+       background-color: rgb(32, 30, 30);
+}
+
+header {
+       text-align: justify;
+}
+
+header h1,
+header nav {
+    display: inline-block;
+}
+
+header {
+       text-align: justify;
+       background-color: rgb(58, 58, 58);
+}
+
+li {
+       list-style: none;
+       display: inline;
+}
+
+a {
+       text-decoration: none;
+}
+
+.Chess {
+       color: rgb(255, 153, 0);
+       padding: 30px;
+
+}
+
+.Chess:hover {
+    color: rgb(255, 255, 255);   
+}
+
+.News {
+       padding: 40px;
+       color: aquamarine;
+}
+
+.News:hover {
+       color: rgb(255, 255, 255);   
+   }
+
+.Teacher {
+       padding: 30;
+       color: aquamarine;
+}
+
+.Teacher:hover {
+       color: rgb(255, 255, 255);   
+   }
+
+.TV {
+       padding: 30px;
+       color: aquamarine;
+}
+
+.TV:hover {
+       color: rgb(255, 255, 255);   
+   }
+
+img {
+width: 50px;
+position: absolute;
+right: 20px;
+top: 5.4%;
+transform: translateY(-50%);
+font-size: 20px;
+left: 1550px;
+
+}
+
+
+.Inbox {
+       width: 50px;
+       position: absolute;
+       left: 1600px;
+       right: 10px;
+       width: 50px;
+       position: absolute;
+       right: 20px;
+       top: 5.4%;
+       transform: translateY(-50%);
+       font-size: 20px;
+       left: 75px;
+
+}
+
+.ku {
+       color: rgb(115, 255, 0);
+       text-align: center;
+}
+
+.o-nas {
+       color: rgb(255, 0, 0);
+       text-align: center;
+       padding: 15px;
+
+              transition: 1s; /* Время эффекта */
+              text-align: center; 
+            }
+
+.o-nas:hover {
+              transform: scale(1.2); /* Увеличиваем масштаб */
+            }
+
+.sod {
+       color: aquamarine;
+}
+
+.not-money {
+       color: rgb(100, 250, 0);
+}
+
+.sod-gl {
+       color: rgb(255, 174, 0);
+}
+
+.nastt {
+       position: absolute;
+       left: 150px;
+       bottom: 880px
+}

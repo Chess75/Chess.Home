@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="shortcut icon" href="ost/images/icosite.ico" type="image/x-icon">
+       <link rel="stylesheet" href="ost/styles/style.css">
+       <title>Почта | Chess.Home</title>
+</head>
+<body>
+       <header>
+              <ul>
+                     <nav>
+                     <li><a href="index.html" class="Chess" title="Главная"><h1>Chess.Home</h1></a></li>
+                     <li><a href="news.html" class="News" title="Новости"><h1>Новости</h1></a></li>
+                     <li><a href="obuch.html" class="Teacher" title="Обучение"><h1>Обучение</h1></a></li>
+                     <li><a href="tv.html" class="TV" title="Chess.Home - TV"> <h1>TV</h1></a></li>
+                     
+                     <li><a href="vhod.html" class="Profile" title="Профиль (Вход | Регистрация)"><img src="ost/images/img1.png"></a></li>
+                     <li><a href="inbox.html" class="Inbox" title="Почта"><img src="ost/images/inbox.svg"></a></li>
+                     <li><a href="nast.html" class="nastt" title="Настройки"><img src="ost/images/set.svg"></a></li>
+                     </nav>
+              </ul>
+       </header>
+
+       <center><h1 class="underline-one">Почта</h1></center>
+       
+       <style>
+              .underline-one {
+	color: #00bfff; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+}
+.underline-one:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: black; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.underline-one:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: red; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+
+.soder {
+       text-align: center;
+       color: #f66d52;
+       padding: 15px;
+}
+
+.soder:hover {
+       color: #5265f6;
+}
+       </style>
+
+       <div class="soder">
+              <h3>Тут пока тихо. Даже слишком...</h3> 
+              <img src="ost/images/moon.svg" alt="" class="tixo">
+       </div>
+
+       <style>
+              .tixo {
+                     margin-top: 152px;
+                     left: 1100px;
+              }
+       </style>
+
+</body>
+</html>
